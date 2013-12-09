@@ -296,10 +296,10 @@ var binds = {
   moveRight: 39,
   moveDown: 40,
   hardDrop: 32,
-  holdPiece: 67,
-  rotRight: 88,
+  holdPiece: 16,
+  rotRight: 38,
   rotLeft: 90,
-  rot180: 16,
+  rot180: 4567,
   retry: 82
 };
 var flags = {
@@ -580,7 +580,7 @@ function drawCell(x, y, color, ctx) {
 function makeSprite() {
   var shaded = [
     // 0         +10        -10        -20
-    ['#c1c1c1', '#dddddd', '#a6a6a6', '#8b8b8b'],
+    ['#FF6600', '#FF6600', '#FF6600', '#FF6600'],
     ['#25bb9b', '#4cd7b6', '#009f81', '#008568'],
     ['#3397d9', '#57b1f6', '#007dbd', '#0064a2'],
     ['#e67e23', '#ff993f', '#c86400', '#a94b00'],
